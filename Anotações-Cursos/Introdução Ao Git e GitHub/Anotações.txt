@@ -1,0 +1,27 @@
+ - O que é Git?
+
+É um sistema de versionamento de código distribuído, criado em 2005 por Linus Torvalds.
+
+Obs: Git e Github são tecnologias complementares, porém diferentes.
+
+
+ - Alguns comandos úteis:
+
+ls -> Lista o conteúdo dentro do diretório.
+ls -a -> Lista todo o conteúdo do diretório (Incluindo arquivos ocultos).
+cd "Nome da pasta" (Sem aspas) -> Permite navegar para dentro da pasta indicada.
+cd / -> Leva para o diretório base.
+cd .. -> Retrocede 1 nível de diretório.
+clear ou "Ctrl + l" -> Limpa o terminal.
+mkdir "Nome da pasta" (Sem aspas) -> Cria um novo diretório com o nome indicado.
+del -> Deleta os arquivos dentro da pasta.
+mrdir "Nome da pasta" (Sem aspas) -> Deleta a pasta e seus arquivos.
+
+ - Comandos no Git:
+
+git init -> Cria um repositório no Git dentro da pasta desejada.
+git status -> Mostra o status dos arquivos dentro do diretório.
+git add * ou git . -> Adiciona tudo que está pendente no diretório de trabalho para o estado de "Staged".
+git commit -> Faz o Commit dos aquivos que estão e estado de "Staged".
+
+
